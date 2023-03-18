@@ -1910,3 +1910,33 @@ body {
   }
 }
 
+
+
+/* Project preview button css */
+
+.all-projects-preview {
+  display: inline-block;
+  padding: 15px 50px;
+margin: 30px auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+
+  
+  background: #7a6bd2;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: 'Circular-Loom';
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.all-projects-preview:hover{
+  background: #fff;
+  color: #7565cf;
+  border: 1px solid #7565cf;
+  border-radius: 50px;
+  transition: 0.3s;
+}
