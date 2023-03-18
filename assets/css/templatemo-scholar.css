@@ -1915,7 +1915,7 @@ body {
 
 
 /* Project preview button css */
-.work-preview{
+.work-preview1{
   display: inline-block;
   padding: 10px 20px;
 margin: 10px auto;
@@ -1952,7 +1952,7 @@ margin: 30px auto;
   transition: 0.3s;
 }
 
-.all-projects-preview:hover,.work-preview:hover{
+.all-projects-preview:hover{
   background: #fff;
   color: #7565cf;
   border: 1px solid #7565cf;
