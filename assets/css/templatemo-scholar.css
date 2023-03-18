@@ -812,20 +812,20 @@ Services Style
 }
 
 .services .service-item .icon {
-  width: 190px;
-  height: 190px;
+  width: 120px;
+  height: 120px;
   display: inline-block;
   text-align: center;
-  line-height: 190px;
+  line-height: 120px;
   background-color: #7a6ad8;
   border-radius: 50%;
   position: absolute;
   right: 0;
-  top: -95px;
+  top: -50px;
 }
 
 .services .service-item .icon img {
-  max-width: 86px;
+  max-width: 50px;
   transition: all .2s;
 }
 
@@ -844,6 +844,7 @@ Services Style
   margin-bottom: 15px;
   line-height: 30px;
   transition: all .4s;
+  text-transform: capitalize;
 }
 
 .services .service-item p {
