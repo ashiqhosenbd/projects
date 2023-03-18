@@ -1054,6 +1054,8 @@ Courses Style
 
 .events_item .down-content {
   padding: 20px 30px 25px 30px;
+  
+  
 }
 
 .events_item .down-content span.author {
@@ -1929,7 +1931,7 @@ margin: 10px auto;
   font-weight: 500;
   font-family: 'Circular-Loom';
   border: 1px solid transparent;
-  transition: 0.3s;
+  transition: 1s;
 }
 .all-projects-preview {
   display: inline-block;
@@ -1950,13 +1952,14 @@ margin: 30px auto;
   transition: 0.3s;
 }
 
-.all-projects-preview:hover{
+.all-projects-preview:hover,.work-preview:hover{
   background: #fff;
   color: #7565cf;
   border: 1px solid #7565cf;
   border-radius: 50px;
   transition: 0.3s;
 }
+
 
 .screenshots {
 
