@@ -1940,3 +1940,16 @@ margin: 30px auto;
   border-radius: 50px;
   transition: 0.3s;
 }
+
+.screenshots {
+
+}
+.screenshots img{
+  margin: 5px !important;
+  border-radius: 5px;
+  transition: 0.3s;
+  z-index: 99999;
+}
+.screenshots img:hover{
+  transform: scale(1.5);
+}
