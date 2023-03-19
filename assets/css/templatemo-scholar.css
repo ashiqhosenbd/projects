@@ -1069,6 +1069,7 @@ Courses Style
   font-size: 22px;
   font-weight: 600;
   transition: all .3s;
+  
 }
 
 .events_item:hover .down-content h4 {
@@ -1268,6 +1269,9 @@ Testimonials Style
 .testimonials .item img {
   border-radius: 50%;
   max-width: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
   float: left;
   margin-right: 25px;
 }
@@ -1284,6 +1288,7 @@ Testimonials Style
   font-size: 22px;
   font-weight: 600;
   margin-top: 8px;
+  
 }
 
 .testimonials .owl-nav {
@@ -1972,4 +1977,26 @@ margin: 30px auto;
 }
 .screenshots img:hover{
   
+}
+
+.owl-carousel1.owl-testimonials1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+  width: 100% !important;
+}
+.owl-carousel1.owl-testimonials1 .item {
+  flex-basis: 33%;
+  margin: 5px 0px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.owl-carousel1.owl-testimonials1 .item p {
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 40px;
 }
